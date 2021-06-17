@@ -1,0 +1,113 @@
+<html>
+<head>
+    <style>
+    body { border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+<!--  background-image: url('abc.jpeg');}-->
+    h1   {color: black;}
+    label {width:150px;display: inline-block;color:black;font-size:20px;
+    }
+    button
+    {
+   font-size:20px;
+    background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    }
+    button:hover {
+  background-color: #45a049;
+}
+    * {
+  box-sizing: border-box;
+}
+
+input {
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.sideman {
+  height: 100%;
+  width: 810px;
+
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+</style>
+</head>
+<body bgcolor="gray">
+<center>
+    <div id="form">
+        <form method="POST" action="/login_Page">
+        <u><h1>E-PASS REGISTRATION FORM</h1></u><br>
+
+<!--            <img src="abc.jpeg"  width="500" height="600">-->
+
+        <label>FirstName</label>
+        <input type="text" class="form-control"  name="fname" placeholder="" value="" required>
+            <br><br>
+
+
+        <label>LastName</label>
+        <input type="text" class="form-control"  name="lname" placeholder="" value="" required>
+            <br><br>
+
+
+        <label >Email</label>
+            <input type="text" class="form-control"  name="email_id" placeholder="" value="" required>
+            <br><br>
+
+
+        <label >Source State</label>
+            <input type="text" class="form-control"  name="source_state" placeholder="" value="" required>
+            <br><br>
+
+
+        <label>Source</label>
+        <input type="text" class="form-control"  name="source" placeholder="" value="" required>
+            <br><br>
+
+
+        <label>Destination State</label>
+        <input type="text" class="form-control"  name="dest_state" placeholder="" value="" required>
+            <br><br>
+
+
+        <label >Destination</label>
+            <input type="text" class="form-control"  name="destination" placeholder="" value="" required>
+            <br><br>
+
+
+        <label >PhoneNumber</label>
+        <input type="number" class="form-control"  name="phoneNumber" placeholder="" value="" required>
+            <br><br>
+
+
+        <label >AadharCard</label>
+            <input type="number" class="form-control"  name="id_card" placeholder="" value="" required>
+            <br><br>
+
+
+        <label >Date to Travel</label>
+            <input type="date" class="form-control" name="trip" placeholder="" value="" required>
+            <br><br>
+            <br>
+
+
+        <button type="submit" class="btn btn-info">Submit</button>
+
+</form>
+    </div>
+    </center>
+<!--<img class="sideman" src="C:\Users\Dell\PycharmProjects\pythonProject\templates\abc.jpeg" alt="">-->
+</body>
+</html>
